@@ -5,6 +5,7 @@ function Tours (props){
         <>
         <img src = {props.image} style={{width: widthimg }} />
         <p>{props.name}</p>
+        <hr></hr>
         </>
     )
 }
