@@ -6,6 +6,7 @@ function Footer (props){
         <a href= {urlFacebook} style = {{color : "blue"}}>facebook</a>
         <br/>
         <a href= {urlX} style={{color : "black"}}>X</a>
+        <p>&copy;Ahmad</p>
         </>
         
     )
