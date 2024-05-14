@@ -3,10 +3,21 @@ function Footer (props){
     let urlX = "https://twitter.com/";
     return(
         <>
-        <a href= {urlFacebook} style = {{color : "blue"}}>facebook</a>
-        <br/>
-        <a href= {urlX} style={{color : "black"}}>X</a>
-        <p>&copy;Ahmad</p>
+        <footer className="bg-body-tertiary text-center text-lg-start">
+  {/* Copyright */}
+  <div
+    className="text-center p-3"
+    style={{ backgroundColor: "rgba(0, 0, 0, 0.05)" }}
+  >
+    © 2024 Copyright:
+        <br></br>
+    <a className="text-body" href="https://facebook.com/">
+      facebook
+    </a>
+  </div>
+  {/* Copyright */}
+</footer>
+
         </>
         
     )
